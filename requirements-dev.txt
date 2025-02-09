@@ -1,0 +1,13 @@
+# local package
+-e .
+
+
+numpy
+pandas
+scikit-learn
+mlflow
+dagshub
+dvc
+lightgbm
+xgboost
+joblib
