@@ -9,8 +9,8 @@ stages:
       size: 7431450
     - path: src/data/data_cleaning.py
       hash: md5
-      md5: a18ac901d51fcb236503bc3d1a8a6c06
-      size: 9098
+      md5: 6c6b594c67b539164faaa176f8c88cb9
+      size: 9095
     outs:
     - path: data/cleaned/cleandata.csv
       hash: md5

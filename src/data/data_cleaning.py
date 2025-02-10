@@ -116,7 +116,7 @@ def data_cleaning(data: pd.DataFrame) -> pd.DataFrame:
             type_of_vehicle = lambda x: x["type_of_vehicle"].str.rstrip().str.lower(),
             festival = lambda x: x["festival"].str.rstrip().str.lower(),
             city_type = lambda x: x["city_type"].str.rstrip().str.lower(),
-            # multiple deliveries column
+            # multiple request column
             multiple_requests = lambda x: x["multiple_requests"].astype(float),
             # target column modifications
             time_taken = lambda x: (x["time_taken"]
