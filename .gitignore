@@ -91,7 +91,6 @@ target/
 notebooks
 text_file.txt
 
-app.py
 appspec.yml
 cleandata.csv
 Dockerfile

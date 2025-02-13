@@ -1,2 +1,4 @@
-['remote "origin"']
-    url = s3://bucket/servicehub-storage
+[core]
+    remote = dvcstore
+['remote "dvcstore"']
+    url = s3://servicehub-storage
