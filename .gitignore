@@ -96,8 +96,6 @@ appspec.yml
 cleandata.csv
 Dockerfile
 requirements-docker.txt
-scripts
-tests
 ignorefile
 
 /run_information.json
