@@ -72,6 +72,7 @@ jobs:
           docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
 
+
       
       # # Zip the required files
       # - name: Zip files for deployment
