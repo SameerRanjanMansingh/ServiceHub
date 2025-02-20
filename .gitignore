@@ -89,11 +89,7 @@ target/
 .mypy_cache/
 
 notebooks
-text_file.txt
-requirements-dev.txt
 
-appspec.yml
-cleandata.csv
 ignorefile
 
 /run_information.json
